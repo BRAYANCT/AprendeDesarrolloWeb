@@ -1,0 +1,49 @@
+body {
+    background-color: #eeeeee;
+    color: rgb(32, 41, 41);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#identificador {
+    height: 100px;
+    width: 100px;
+    padding-top: 15px;
+    margin: 5px;
+    background-color: #bb1717;
+}
+
+.clases {
+    height: 150px;
+    width: 100px;
+    padding-top: 15px;
+    margin: 5px;
+    background-color: #ba9494;
+}
+
+.hola {
+    border: 1px solid #000000;
+    padding: 50px;
+    margin: 20px;
+}
+
+body {
+    margin: 50px;
+    padding: 50px;
+}
+
+.caja {
+    margin: 8px;
+    padding: 15px;
+    height: 150px;
+    width: 100px;
+    color: #fa0;
+    font-size: 21px;
+    background-color: rgb(139, 255, 211);
+    border-style: dashed;
+    border-top: 5px dashed rgb(49, 175, 38);
+    border-left: 5px dashed rgb(25, 11, 150);
+    border-right: 5px dashed rgba(140, 12, 93, 0.658);
+    border-bottom: 5px dashed rgb(16, 166, 192);
+    border-radius: 15px;
+}

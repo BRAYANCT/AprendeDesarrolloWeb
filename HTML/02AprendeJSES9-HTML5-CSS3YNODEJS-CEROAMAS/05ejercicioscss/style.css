@@ -1,0 +1,55 @@
+body {
+    background-color: #f0f0f0;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    height: 200px;
+    width: 625px;
+    margin: 15px;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+hr {
+    color: rgb(202, 202, 202);
+    background-color: rgb(220, 220, 220);
+}
+
+.cabecera {
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(189, 189, 189);
+}
+
+.contenedor {
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(189, 189, 189);
+}
+
+.botones {
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.Enviar {
+    height: 35px;
+    width: 100px;
+    font-size: 20px;
+    background-color: rgb(70, 54, 206);
+    color: #fff;
+    border: 0px;
+}
+
+.Cancelar {
+    height: 35px;
+    width: 100px;
+    font-size: 20px;
+    background-color: rgb(166, 165, 167);
+    color: #fff;
+    border: 0px;
+}

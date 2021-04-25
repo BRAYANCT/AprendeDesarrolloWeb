@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<!-- aqui definimos que utilizaremos  el hhtml5 -->
+<html lang="es">
+
+<head>
+    <!-- es etiqueta no muestra nada se utilisa para poner archivos de css 
+js o dar instruccion al navegador pero no se muestra el contenido el 
+contenido se m,uestra en el body -->
+    <meta charset=" UTF-8 ">
+
+    <title>Introduccion al html-5</title>
+    <!-- esto da el titulo el nombre del sitio web-->
+    <style>
+        .h2 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- aqui va todo el contenido lo que se muestra en el navegador  -->
+    <h2 class="h2">Introduccion html</h2>
+    <hr>
+    <p>
+        Es un lenguaje de marcado que se utiliza para programar en html
+    </p>
+    <p>
+        pero primero debemos decirle que usaremos el estandar html5
+        < !DOCTYPE html>.
+            <br> Esta compuesta por etoquetas jemplo de etiquetas:
+            < h1:esto es una etiqueta que habre>
+                < / h1:esta es una etiqueta que sierra>
+    </p>
+    <h1>titulo 1</h1>
+    <!-- con el h1 podemos poner el tmaño de titulos que podemos utilizar -->
+    <h2>titulo 2</h2>
+    <h3>titulo 3</h3>
+    <h4>titulo 4</h4>
+    <h5>titulo4</h5>
+    <h6>titulo6</h6>
+    <p>parrafo de html</p>
+    <p>parrafo de html
+        <hr> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae laboriosam dolore laudantium quam dignissimos consequatur cumque, alias sapiente beatae quia, pariatur architecto voluptatibus fugiat hic. Ullam facere cum pariatur tenetur?
+    </p>
+    <!-- con p podemos utilizar el parrafo es casi igual el parrafo
+         te pone sagria y espaciado-->
+    <h2 class="h2">NEGRITAS COMENTARIOS +</h2>
+    <hr> con hr y br son etiquetas que no tienesn contenido el hr es para poner una linea y br un salto de linea
+    <p>
+        < !-- --> :con esto definimos un comentario para html para que sirve para dar una guia de lo que aremos
+            <!-- comentario de html -->
+    </p>
+    <p>
+        lorem ipsum dolor sit <b>amet</b>, consectet
+        <strong>texto en negrita</strong>
+
+        <!-- el b hace mas negrita -->
+        <blockquote>esta es una cita</blockquote>
+        <!-- rl blockquote es pàra hacer citar pueden ver la sangria 
+          -->
+        <code>
+        soy un codigo
+    </code>
+        <!-- code pone en formato de codigo las letras-->
+        <em>texto con enfasis cursiva</em><br>
+        <i>tento de envasis italic</i><br>
+        <!-- el em y el i ponen en formato de italic cursovas -->
+    </p><br>
+    <pre>
+        esto pone las citas como esta en el codigo 
+    </pre><br>
+    <s>cruzado</s><br>
+    <small>texto pequueño</small><br>
+    <strong>texto en negrita</strong><br>
+    <u>este texto subrayado</u>
+    <!-- los div son contenedores -->
+    <div>seccion o division de las etiquetas</div>
+
+    <br>
+    <hr>
+    <h2 class="h2">Formularios+</h2>
+    <hr>
+    <br>
+
+    <form>
+        <fieldset>
+
+
+            <label for="nombre">Nombre : </label>
+            <input type="text" id="nombre" placeholder="nombre" required><br><br>
+            <label for="correo">Correo : </label>
+            <input type="email" name="correo" id="correo" placeholder="correo" required><br><br>
+
+            <label for="password">Password : </label>
+            <input type="password" name="password" id="password" placeholder="password" required><br><br>
+            <label for="edad">edad : </label>
+            <input type="number" name="edad" id="edad" placeholder="edad" required><br><br>
+            <textarea name="contactenos" id="contactenos" cols="30" rows="10"></textarea><br><br>
+            <input type="submit" value="Enviar"><br><br>
+            <select>
+            <option value="Goku">Goku</option>
+            <option value="Vegueta">Vegueta</option>
+            <option value="gojhan">gojhan</option>
+        </select><br><br>
+            <button>Enviar</button><br><br>
+
+        </fieldset>
+    </form>
+    <br>
+    <hr>
+    <h2 class="h2">IMAGENES+</h2>
+    <hr>
+    <br>
+    <img src="https://placekitten.com/300/300" alt="imagenes de gatitos">
+    <a href="01introduccion.html"><img src="https://placekitten.com/300/300" alt="imagenes de datitos"></a>
+    <br>
+    <hr>
+    <h2 class="h2">Listas+</h2>
+    <hr>
+    <br>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+    </ul>
+    <ol>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+    </ol>
+
+    <br>
+    <hr>
+    <h2 class="h2">Tablas+</h2>
+    <hr>
+    <br>
+
+    <table border="1px">
+        <thead>
+            <tr>
+                <th>nombre</th>
+                <th>apellido</th>
+                <th>edad</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>brayan</td>
+                <td>andres</td>
+                <td>17</td>
+            </tr>
+            <tr>
+                <td>brayan</td>
+                <td>andres</td>
+                <td>17</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>2</td>
+                <td>2</td>
+                <td>2</td>
+            </tr>
+        </tfoot>
+
+    </table>
+</body>
+
+</html>

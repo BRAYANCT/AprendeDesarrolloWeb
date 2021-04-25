@@ -1,0 +1,14 @@
+body {
+    background-color: #0d1117;
+    color: #fff;
+    font-size: 25px;
+}
+
+.grid {
+    display: inline-grid;
+    grid-template-columns: 1fr 2fr 3fr;
+}
+
+.element {
+    background-color: #ff0000;
+}

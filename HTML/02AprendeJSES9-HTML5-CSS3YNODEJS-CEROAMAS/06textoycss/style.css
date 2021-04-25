@@ -1,0 +1,99 @@
+body {
+    background-color: #eee;
+    font-size: 25px
+}
+
+p {
+    color: #180d5f;
+    text-decoration: underline;
+    text-align: justify;
+    text-transform: capitalize;
+    text-indent: 50px;
+    word-spacing: 10px;
+    line-height: 1.5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    /*     text-shadow: 3px 2px 5px red;
+ */
+}
+
+p:hover {
+    text-shadow: 3px 2px 5px red;
+}
+
+.google {
+    letter-spacing: 5px;
+    text-decoration: overline;
+    text-transform: uppercase;
+}
+
+.google:visited {
+    color: blue
+}
+
+.facebook:link {
+    color: pink
+}
+
+.facebook {
+    text-decoration: line-through;
+    text-transform: lowercase;
+}
+
+.twiter {
+    text-decoration: underline;
+    text-transform: capitalize;
+    /* pone el primero con mayuscula */
+}
+
+.twiter:active {
+    color: red;
+}
+
+.twiter:hover {
+    color: black;
+}
+
+ul li,
+ol li {
+    /*     list-style-type: lower-alpha;
+ */
+}
+
+ul {
+    list-style-type: none;
+    background-color: #fff;
+    border: solid 1px #ddd;
+    border-radius: 4px;
+    padding-left: 0px;
+    /*     padding: 15px;
+    margin: 15px; */
+}
+
+
+/* estilos para tablas */
+
+table {
+    width: 100%;
+    background-color: #ffffff;
+    border-collapse: collapse;
+}
+
+table th {
+    background-color: #4caf50;
+    color: #f2f2f2
+}
+
+td {
+    border: 1px solid #ddd;
+}
+
+li {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+    padding: 15px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}

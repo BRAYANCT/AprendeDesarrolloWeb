@@ -1,0 +1,34 @@
+body {
+    background-color: #0d1117;
+    color: #fff;
+}
+
+.over {
+    background-color: #494949;
+    width: 150px;
+    height: 150px;
+    overflow: auto;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin: 10px;
+}
+
+p {
+    float: right;
+    background-color: #615c5c;
+    padding: 10px;
+}
+
+div p {
+    float: none;
+    background-color: #0d1117;
+    color: #b85824;
+}
+
+img:hover {
+    opacity: 50%;
+}

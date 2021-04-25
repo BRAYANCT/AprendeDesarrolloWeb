@@ -1,0 +1,32 @@
+¿Que es una api rest?
+una api es una interfas que se encuentra en la nuve que pèrmite que nuestros clientes soliciten datos de nuestra
+base de datos de app o web.
+
+Nuestras apies se consumen por medio de hhtp:
+GET     ========      listar                RECURSOS /users/users/:id       STATUS 200 SUCCESS
+POST    ========      crear                 RECURSOS /users                 STATUS 201
+PUT     ========      remplazar o editar    RECURSOS /users/:id             STATUS 204 || LOS DOS SE UNSAN PARA LO MISMO 
+PATCH   ========      actualizar            RECURSOS /users/:id             STATUS 204 || LOS DOS SE UNSAN PARA LO MISMO
+DELETE  ========      eliminar              RECURSOS /users/:id             STATUS 204
+
+Todo te devuelve un status que son mensajes de servidor 200 404 500 LOS MAS COMUNES
+1XX Respuestas informativas.
+2XX Peticiones correctas.
+3XX Redirecciones.
+4XX Errores del cliente.
+5XX Errores del servidor.
+
+Como funciona la arquitectura serverlss
+modelo serverless;
+
+
+modelo antiguo:
+Cliente servidor:los clientes hacen una peticion a nuestros servidores si en nuestra oagina hacen peticiones a la misma vez 
+de millones de personas debemos configurasr un loadbalancer 
+
+desarrollador===escribe archibos en cualquier lenguaje ===subimos a nuesto hosting
+                        aqui se guardara en la bd cuando se salgue se borrara cache
+
+
+npm i -g vercel 
+instalamos para usar versel para servidort gratuito
